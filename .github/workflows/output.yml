@@ -4,5 +4,5 @@ jobs:
     output_job:
         runs-on: ubuntu-latest
         steps:
-          - name: Output Message
-            run: echo ${{ toJson(github) }}
+            - name: Output Message
+              run: echo ${{ toJson(github) }}
